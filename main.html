@@ -5,12 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This is my HTML & CSS Cheat Sheet</title>
 </head>
+
 <body>
     <header>
-        <h1>HTML & CSS Cheat Sheet</h1>
+        <h1 id="top">HTML & CSS Cheat Sheet</h1>
     </header>
+    
+<p>
+    <ul>
+        <a href="#text_examples">Text Examples</a>
+        <a href="#lists">Lists</a>
+        <a href="#links">Links</a>
+        <a href="#images">Images</a>
+        <a href="#headings">Headings</a>
+        <a href="mailto:trevor.katilius@gmail.com">Email Me</a>
+    </ul>
+</p>
+    
 
-    <h1>Text Examples</h1>
+<h1 id="text_examples">Text Examples</h1>
     <p lang="en-us"><strong>This is example text </strong>showing various ways to use HTML to format text in a paragraph. 
         This also show how to use the sup & sub element, which is used for dates: 
         July 4<sup>th</sup> and text like chemical formulas: H<sub>2</sub>O<br />
@@ -19,8 +32,11 @@
         <p><acronym title="Fight Club movie quotes">Here is a blockquote with some abbreivated text:</acronym> “This is your life, and it's ending one minute at a time.”</p></blockquote>
         <p><del>Whoopse</del><ins> Or this quote by Tyler Durden:</ins>  <q><i>You are not special. You are not a beautiful or unique snowflake. 
             You are the same decaying organic matter as everything else.</i></q></p>
-    <hr />
-    <h1>Lists</h1>
+<hr />
+
+    
+
+<h1 id="lists">Lists</h1>
     <ol>
         <li>This is list item 1</li>
         <li>This is list item 2</li>
@@ -40,26 +56,31 @@
         <dt>Definition list of pizza toppings</dt>
         <dd>Sauce, cheese, pepperoni, sausage</dd>
     </dl>
-    
-    
-    <hr />
-    <h1>Links</h1>
+<hr />
+
+
+<h1 id="links">Links</h1>
     <p>Favorite Websites</p>
     <ul>
         <li><a href="https://www.theverge.com">The Verge</a></li>
         <li><a href="https://www.macrumors.com">MacRumors</a></li>
         <li><a href="https://www.daringfireball.net">Daring Fireball</a></li>
+        <li><a href="https://www.cnn.com" target="_blank">CNN</a>(Opens in a new window)</li>
     </ul>
-    
-    
-    <hr />
-    <h1>This is the Main Heading</h1>
+<hr />
+
+
+<h1 id="headings">The six "levels" of headings</h1>
+    <h6>This is a Level 6 Heading</h6>
+    <h5>This is a Level 5 Heading</h5>
+    <h4>This is a Level 4 Heading</h4>
+    <h3>This is a Level 3 heading</h3>
     <h2>This is a Level 2 Heading</h2>
-	<h3>This is a Level 3 Heading with a line break</h3>
-    <hr />
-	<h4>This is a Level 4 Heading</h4>
-	<h5>This is a Level 5 Heading</h5>
-	<h6>This is a Level 6 Heading</h6>
+    <h1>This is a level 1 Heading</h1>
+<hr />
+
+
+
     <p lang="en-us">This text might be an introduction to the rest of the page. 
         And if the page is a long one it might be slight into several sub-headings</p>
     <h2>This is a Sub-Heading with <i>italics</i> and <b>bold</b> fonts</h2>
@@ -67,5 +88,23 @@
         There may even be sub-sub-headings (or lower-level headings).</p>
     <h2>Another Sub-Heading</h2>
     <p lang="en-us">Here you see another sub-heading.</p>	
+    </p>
+    <hr />
+
+<h1 id="images">Images</h1>
+<img src="images/halo.jpg" alt="halo" title="halo" width="450" height="250"/>
+<p>Master Chief attacking the Covenant with an energy sword</p>
+<hr />
+<p><img src="images/mclaren.jpeg" alt="mclarenp1" title="mclarenp1" width="450" height="250"/>
+This is the McLaren P1 while also demonstrating text with an image inside the start of a paragraph.</p>
+<hr />
+<p><img src="images/batman.jpeg" alt="batman" title="batman" width="450" height="250" align="middle"/>
+The Batman with the image text aligned to the middle of the image.</p>
+
+<br>
+<br>
+<br>
+<br>
+<p>Click <a href="#top">here</a> to go back to the top of the page!</p>
 </body>
 </html>
