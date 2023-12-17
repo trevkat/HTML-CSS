@@ -18,6 +18,8 @@
         <a href="#links">Links</a>
         <a href="#images">Images</a>
         <a href="#headings">Headings</a>
+        <a href="#tables">Tables</a>
+        <a href="#forms">Forms</a>
         <a href="mailto:trevor.katilius@gmail.com">Email Me</a>
     </ul>
 </p>
@@ -92,14 +94,142 @@
     <hr />
 
 <h1 id="images">Images</h1>
-<img src="images/halo.jpg" alt="halo" title="halo" width="450" height="250"/>
-<p>Master Chief attacking the Covenant with an energy sword</p>
+    <img src="images/halo.jpg" alt="halo" title="halo" width="450" height="250"/>
+    <p>Master Chief attacking the Covenant with an energy sword</p>
 <hr />
-<p><img src="images/mclaren.jpeg" alt="mclarenp1" title="mclarenp1" width="450" height="250"/>
-This is the McLaren P1 while also demonstrating text with an image inside the start of a paragraph.</p>
+    <p><img src="images/mclaren.jpeg" alt="mclarenp1" title="mclarenp1" width="450" height="250"/>
+    This is the McLaren P1 while also demonstrating text with an image inside the start of a paragraph.</p>
 <hr />
-<p><img src="images/batman.jpeg" alt="batman" title="batman" width="450" height="250" align="middle"/>
-The Batman with the image text aligned to the middle of the image.</p>
+    <p><img src="images/batman.jpeg" alt="batman" title="batman" width="450" height="250" align="middle"/>
+    The Batman with the image text aligned to the middle of the image.</p>
+    <hr />
+
+<h1 id="tables">Tables</h1> 
+<table>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td> 
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td> 
+    </tr>
+</table>
+
+<h3>Table Headings:</h3>
+<table>
+    <tr>
+        <th></th>
+        <th scope="col">Col 1</th>
+        <th scope="col">Col 2</th>
+    </tr>
+    <tr>
+        <th scope="row">Row 1:</th>
+        <td>120</td>
+        <td>135</td>
+    </tr>
+    <tr>
+        <th scope="row">Row 2</th>
+        <td>$600</td>
+        <td>$675</td>
+    </tr>
+</table>
+
+<h3>Spanning Columns:</h3>
+<table>
+    <tr>
+        <th></th>
+        <th>Col 1</th>
+        <th>Col 2</th>
+        <th>Col 3</th>
+        <th>Col 4</th>
+    </tr>
+    <tr>
+        <th>Row 1</th>
+        <td colspan="4">Four Columns of Data</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Row 2</th>
+        <td colspan="3"></td>
+        <td></td>
+    </tr>
+</table>
+
+<h3>Spanning Rows:</h3>
+<table>
+    <tr>
+        <th></th>
+        <th>FOX</th>
+        <th>NBC</th>
+        <th>CNN</th>
+    </tr>
+    <tr>
+        <th>6pm - 7pm</th>
+        <td rowspan="2">Simpsons</td>
+        <td>Comedy</td>
+        <td>News</td>
+    </tr>
+    <tr>
+        <th>7pm - 8pm</th>
+        <td>Sports</td>
+        <td>Current Affairs</td>
+    </tr>
+</table>
+
+<h3>Long Tables:</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Income</th>
+            <th>Expenses</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>1st January</th>
+            <td>250</td>
+            <td>36</td>
+        </tr>
+        <tr>
+            <th>2nd January</th>
+            <td>285</td>
+            <td>48</td>
+        </tr>
+        <tr>
+            <th>3rd January</th>
+            <td>260</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <th>4th January</th>
+            <td>290</td>
+            <td>38</td>
+        </tr>
+        </tbody>
+        </table>
+
+        <hr />
+
+<h1 id="forms">Forms</h1>
+<form action="http://www.google.com">
+    <p>Username:
+        <input type="text" name="Username" size="15" maxlength="30" />
+    </p>
+</form>
+
+
+
+
 
 <br>
 <br>
