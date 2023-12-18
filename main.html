@@ -221,11 +221,58 @@
         <hr />
 
 <h1 id="forms">Forms</h1>
-<form action="http://www.google.com">
+<form action="http://www.example.com/comments.php">
     <p>Username:
         <input type="text" name="Username" size="15" maxlength="30" />
     </p>
+    <p>Password:
+        <input type="password" name="password" size="15" maxlength="30" />
+    </p>
+<h3>Text Area Form:</h3>
 </form>
+<form action="http://www.example.com/comments.php">
+    <p>What do you think?</p>
+    <textarea name="comments" cols="20" rows="4">Enter your comments....</textarea>
+    </form>
+<h3>Radio Buttons:</h3>
+<form action="http://www.example.com/profile.php"></form>
+<p>Select your favorite genre:</p>
+<input type="radio" name="genre" value="rock" checked="checked" /> Rock
+<input type="radio" name="genre" value="pop" /> Pop
+<input type="radio" name="genre" value="rap" /> Rap
+</form>
+</p>
+<h3>Checkboxes:</h3>
+<form action="http://www.example.com/profile.php"></form>
+<p>Select your favorite musician:</p>
+<input type="checkbox" name="musician" value="Slipknot" checked="checked" /> Slipknot
+<input type="checkbox" name="musician" value="nineinchnails" /> Nine Inch Nails
+<input type="checkbox" name="musician" value="linkinpark" /> Linkin Park
+</form>
+<h3>Drop Down List Boxes:</h3>
+<form action="http://www.example.com/profile.php"></form>
+<p>What is your favorite game console:</p>
+<select name="consoles">
+<option value="Xbox"> Xbox</option>
+<option value="Xbox"> Playstation</option>
+<option value="Xbox"> Nintendo</option>
+</select>
+</form>
+<h3>Multiple Select Boxes:</h3>
+<form action="http://www.example.com/profile.php"></form>
+<p>Do you like any of the following games?
+    (You can select more than one by holding down Control on PC
+    and Command on Mac while selecting multiple options.)
+</p>
+<select name="games" size="5" multiple="multiple">
+<option value="Halo"> Halo</option>
+<option value="Mario"> Mario</option>
+<option value="Sonic"> Sonic</option>
+<option value="Madden"> Madden</option>
+<option value="Tony Hawk"> Tony Hawk</option>
+</select>
+</form>
+<hr />
 
 
 
