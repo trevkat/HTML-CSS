@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    h1, h2, h3, h3, h4, h5, h6 {
+        color: #495C90
+    }
+   background-color: #C3C3C3
+}
+
+#nav {
+    font-family: verdana;
+    font-size: 15px;
+    border: 2px solid #e7642c;
+				padding-right: 1px;
+                padding-left: 5px;
+}
+
+i {
+    color: #9F1111
+}
+b, strong {
+    color: #027E70
+}
+em {
+    color: #D57506;
+}
+del {
+    color: #13B3D3
+}
+
+p.six {
+    font-size: 200%;
+    padding: 20px;
+    text-align: center;}
+p.one {
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px #000000;}
+p.two {
+    background-color: #dddddd;
+    color: #666666;
+    text-shadow: 1px 1px 3px #666666;}
+p.three {
+    background-color: #cccccc;
+    color: #ffffff;
+    text-shadow: 2px 2px 7px #111111;}
+p.four {
+    background-color: #bbbbbb;
+    color: #cccccc;
+    text-shadow: -1px -2px #666666;}
+p.five {
+    background-color: #aaaaaa;
+    color: #ffffff;
+    text-shadow: -1px -1px #666666;}
