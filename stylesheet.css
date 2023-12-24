@@ -1,10 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    
     h1, h2, h3, h3, h4, h5, h6 {
-        color: #495C90
-    }
-   background-color: #C3C3C3
+        color: #495C90;
+    } 
+    background-color: #C3C3C3
 }
 
 #top{
@@ -102,4 +101,19 @@ th.even {
 }
 td.even {
     background-color: #928d8d;
+}
+
+img.align-left {
+    float: left;
+    margin-right: 10px;
+}
+
+img.align-right {
+    float: right;
+    margin-left: 10px;
+}
+
+img.medium {
+   width: 375px;
+   height: 225px;
 }
