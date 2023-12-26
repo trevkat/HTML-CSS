@@ -9,6 +9,7 @@ body {
 #top{
     font-family: 'Lato', sans-serif;
     text-align: center;
+    text-decoration: underline;
 }
 
 #nav {
@@ -34,15 +35,15 @@ ul.navigation {
     text-align: center;}
 
 a:link {
-    color: #e57947e6;
+    /*color: #e57947e6;*/
     text-decoration:none}
-a:visited {
-    color: #e57947e6;}
+/*a:visited {
+    color: #e57947e6;}*/
 a:hover {
-    color: rgb(242, 255, 0);
-    text-decoration: underline;}
+    /*color: rgb(242, 255, 0);*/
+    text-decoration: none;}
 a:active {
-    color: #e57947e6;}
+    color: #b4b3c6e6;}
 
 i {
     color: #9F1111
@@ -116,4 +117,50 @@ img.align-right {
 img.medium {
    width: 375px;
    height: 225px;
+}
+
+/* Flexbox Menu */
+
+.wrapper{
+    width: 73%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav{
+    background: #333;
+    font-family: verdana;
+    margin: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: #555;
+}
+
+/* flex styles */
+
+@media screen and (min-width: 768px){
+    
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav li{
+    flex: 0 1 0;
+}
+
 }
