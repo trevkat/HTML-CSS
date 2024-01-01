@@ -1,0 +1,1 @@
+alert("Welcome to my page! This is a test alert using JS.")
